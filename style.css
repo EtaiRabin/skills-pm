@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+div {
+	color: black;
+  font-size: 25px;
+}
+
+table{
+    border: 1px solid black;
+    width: 50%;
+    font-size: 21px;
+}
+
+tr:nth-child(odd){
+	background-color: #ddd;
+}
+
+th {
+  color: black;
+	background-color: white;
+}
+
+td{
+    border: 1px solid black;
+    width: 50%;
+    font-size: 17px;
+/*  border-collapse: collapse; */
+}
+
+button {
+	color: black;
+  font-size: 15px;
+}
+
+/* Classes */
+.backToBlack {
+	color: black;
+}
+.understand {
+	color: Green;
+}
+.notSure {
+	color: Orange;
+}
+.dontUnderstand {
+	color: Red;
+}
